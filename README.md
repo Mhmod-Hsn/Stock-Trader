@@ -1,7 +1,7 @@
 # vuex-training
 
 ## Demo
-> (Launch Demo)[https://mystockstrader.web.app/]
+> [Launch Demo](https://mystockstrader.web.app/)
 
 ## Project setup
 ```
