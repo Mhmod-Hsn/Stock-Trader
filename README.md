@@ -1,4 +1,4 @@
-# vuex-training
+# Stock Trader
 
 ## Demo
 > [Launch Demo](https://mystockstrader.web.app/)
