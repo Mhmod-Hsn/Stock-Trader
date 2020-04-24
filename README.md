@@ -1,5 +1,8 @@
 # vuex-training
 
+## Demo
+> (Launch Demo)[https://mystockstrader.web.app/]
+
 ## Project setup
 ```
 npm install
