@@ -1,0 +1,75 @@
+$primary: #5b3cc4
+$success: rgb(23, 201, 100)
+$danger: rgb(242, 19, 93)
+$warning: rgb(255, 130, 0)
+$dark: rgb(36, 33, 69)
+
+// general classes
+.cursor-pointer
+  cursor: pointer
+
+// transition
+.slide-enter-active
+  animation: slide-in 200ms ease-out forwards
+
+.slide-leave-active
+  animation: slide-out 200ms ease-out forwards
+
+@keyframes slide-in
+  from
+    transform: translateY(-30px)
+    opacity: 0
+  to
+    transform: translateY(0)
+    opacity: 1
+
+@keyframes slide-out
+  from
+    transform: translateY(0)
+    opacity: 1
+  to
+    transform: translateY(-30px)
+    opacity: 0
+
+// body
+body
+  background: rgba(230,230,230,0.3)
+
+
+// navbar
+.vs-navbar
+  border-radius: 5px
+  padding: 0 15px
+
+  .vs-navbar--btn-responsive
+    outline: none
+    .btn-responsive-line
+      background: white !important
+
+  .con-vs-dropdown--menu
+    width: 110px
+
+  .vs-dropdown--menu
+    min-width: 100px
+
+  .vs-navbar--item
+    margin: 0 5px
+    transition: all 0.5s ease-in-out
+    &:hover
+      background: rgba(255,255,255,0.2)
+
+
+  .router-link-active
+    color: $primary
+    background: rgba(255,255,255,1)
+// Stocks
+
+.con-vs-card
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,.2)
+  border: 1px solid rgba(0,0,0,.1)
+  border-bottom: 4px solid $primary
+  &:hover
+    border: 1px solid $primary
+
+.danger-border
+  border-color: $danger!important
