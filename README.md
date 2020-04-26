@@ -1,5 +1,7 @@
 # Stock Trader
 
+![](preview.jpg)
+
 ## Demo
 > [Launch Demo](https://mystockstrader.web.app/)
 
